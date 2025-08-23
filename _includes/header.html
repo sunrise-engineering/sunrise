@@ -1,45 +1,86 @@
-<header class="bg-white py-3 shadow-sm">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-3">
-                    <a class="navbar-brand d-flex align-items-center" href="/">
-                        <img src="/assets/logo.jpg" alt="Logo" height="60" class="me-2">
-                       
-                    </a>
-                </div>
-                <div class="col-md-9">
-                    <nav class="navbar navbar-expand-md">
-                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ms-auto align-items-center">
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark fw-semibold px-3 py-2 rounded-3 active" href="#" aria-current="page">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark fw-semibold px-3 py-2 rounded-3" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark fw-semibold px-3 py-2 rounded-3" href="#">Services</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link text-dark fw-semibold px-3 py-2 rounded-3 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Explore
-                                    </a>
-                                    <ul class="dropdown-menu dropdown-menu-end border-0 shadow-sm">
-                                        <li><a class="dropdown-item text-dark" href="#">Projects</a></li>
-                                        <li><a class="dropdown-item text-dark" href="#">Blog</a></li>
-                                        <li><a class="dropdown-item text-dark" href="#">Contact</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item ms-3">
-                                    <button class="btn btn-primary fw-bold px-4 py-2 rounded-pill text-white">Contact Us</button>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+
+<!-- Awesome Header -->
+<nav class="navbar navbar-expand-lg  fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="/assets/logo.jpg" alt="Logo" height="40"></a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mx-auto position-relative">
+                <!-- Slider bar that will move between links -->
+                <div class="slider-bar"></div>
+                
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#features">About us</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#solutions">Products</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#pricing">Services</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#about">Certificate</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#contact">Our Facilities</a> </li>
+                </ul>
+            
+            <div class="header-actions d-flex">
+                <a href="Profile Sunrise.pdf" target="_self" class="btn btn-outline-primary">Download brochure</a>
+                <button class="btn btn-signup">Contact US</button>
             </div>
         </div>
-    </header>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sliderBar = document.querySelector('.slider-bar');
+        
+        // Initialize slider bar position
+        function initSliderBar() {
+            const activeLink = document.querySelector('.nav-link.active');
+            if (activeLink) {
+                const width = activeLink.offsetWidth;
+                const left = activeLink.offsetLeft;
+                
+                sliderBar.style.width = `${width}px`;
+                sliderBar.style.left = `${left}px`;
+            }
+        }
+        
+        // Move slider bar on click
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Update active class
+                navLinks.forEach(item => item.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Move slider
+                const width = this.offsetWidth;
+                const left = this.offsetLeft;
+                
+                sliderBar.style.width = `${width}px`;
+                sliderBar.style.left = `${left}px`;
+                
+                // For demo purposes, we're not actually navigating
+                return false;
+            });
+        });
+        
+        // Initialize on load and resize
+        window.addEventListener('load', initSliderBar);
+        window.addEventListener('resize', initSliderBar);
+        
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.style.padding = "0.5rem 1rem";
+                navbar.style.boxShadow = "0 2px 20px rgba(0, 0, 0, 0.1)";
+            } else {
+                navbar.style.padding = "0.8rem 2rem";
+                navbar.style.boxShadow = "0 2px 20px rgba(0, 0, 0, 0.05)";
+            }
+        });
+    });
+</script>
