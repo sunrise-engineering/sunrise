@@ -27,8 +27,8 @@ description: SPM, automation, conveyors, dies, jigs, and rubber/plastic parts wi
                     <div class="row mt-4">
                         <div class="col-sm-6 mb-3">
                             <div class="d-flex align-items-center">
-                                <div class="bg-primary p-3 rounded-circle me-3">
-                                    <i class="fas fa-cogs text-white fa-lg"></i>
+                                <div class="bg-primary p-3 rounded-circle me-3 text-white">
+                                    <i class="bi bi-gear-wide-connected"></i>
                                 </div>
                                 <div>
                                     <h5 class="mb-0">SPM & Automation</h5>
@@ -38,8 +38,8 @@ description: SPM, automation, conveyors, dies, jigs, and rubber/plastic parts wi
                         </div>
                         <div class="col-sm-6 mb-3">
                             <div class="d-flex align-items-center">
-                                <div class="bg-primary p-3 rounded-circle me-3">
-                                    <i class="fas fa-conveyor-belt text-white fa-lg"></i>
+                                <div class="bg-primary p-3 rounded-circle me-3 text-white">
+                                   <i class="bi bi-chevron-bar-contract"></i>
                                 </div>
                                 <div>
                                     <h5 class="mb-0">Conveyor Systems</h5>
@@ -49,8 +49,8 @@ description: SPM, automation, conveyors, dies, jigs, and rubber/plastic parts wi
                         </div>
                         <div class="col-sm-6 mb-3">
                             <div class="d-flex align-items-center">
-                                <div class="bg-primary p-3 rounded-circle me-3">
-                                    <i class="fas fa-tools text-white fa-lg"></i>
+                                <div class="bg-primary p-3 rounded-circle me-3 text-white">
+                                  <i class="bi bi-tools"></i>
                                 </div>
                                 <div>
                                     <h5 class="mb-0">Dies & Jigs</h5>
@@ -60,8 +60,8 @@ description: SPM, automation, conveyors, dies, jigs, and rubber/plastic parts wi
                         </div>
                         <div class="col-sm-6 mb-3">
                             <div class="d-flex align-items-center">
-                                <div class="bg-primary p-3 rounded-circle me-3">
-                                    <i class="fas fa-boxes text-white fa-lg"></i>
+                                <div class="bg-primary p-3 rounded-circle me-3 text-white">
+                                  <i class="bi bi-box2"></i>
                                 </div>
                                 <div>
                                     <h5 class="mb-0">Rubber & Plastic</h5>
@@ -205,59 +205,58 @@ description: SPM, automation, conveyors, dies, jigs, and rubber/plastic parts wi
     </section>
 <!-- Products Section -->
 <section class="py-5" id="products">
-        <div class="container py-5">
-            <h2 class="section-title">Our Products</h2>
-            <div class="row">
-                <!-- Product 1 -->
-                <div class="col-md-4 mb-4 ">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <i class="fas fa-cogs fa-4x text-primary"></i>
-                        </div>
-                        <div class="card-body p-3">
-                            <h4 class="card-title">Machine Parts</h4>
-                            <ul>
-                                <li>Conveyors & Automations</li>
-                                <li>Inspection Machines, Pressing Machines</li>
-                                <li>Die, Jigs & Fixtures, Air Gauges</li>
-                                <li>Washing Machines & All Type Of SPM Machine</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product 2 -->
-                <div class="col-md-4 mb-4">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <i class="fas fa-industry fa-4x text-primary"></i>
-                        </div>
-                        <div class="card-body p-3">
-                            <h4 class="card-title">Production Parts</h4>
-                            <ul>
-                                <li>High Precision Machined Parts</li>
-                                <li>Cold Forging Parts</li>
-                                <li>Rubber & Plastic Parts</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Product 3 -->
-                <div class="col-md-4 mb-4">
-                    <div class="product-card">
-                        <div class="product-img">
-                            <i class="fas fa-toolbox fa-4x text-primary"></i>
-                        </div>
-                        <div class="card-body p-3">
-                            <h4 class="card-title">Projects</h4>
-                            <ul>
-                                <li>Complete Greenfield Project for M/s Som Autotech</li>
-                                <li>In-house design Facility 3D Solid Works with Work Station</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="container py-5">
+    <h2 class="section-title mb-4">Our Products</h2>
+    <div class="row">
+      <!-- Product 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/assets/product-1.jpg" class="card-img-top img-fluid" alt="Hydraulic Press SPM">
+          <div class="card-body">
+            <h4 class="card-title mb-3">QA Machine for Toyota Crank Case</h4>
+            <ul class="list-unstyled ps-3 mb-0">
+              <li>✅ Checking Parameter</li>
+              <li>✅ Profile</li>
+              <li>✅ Position</li>
+              <li>✅ Through Hole</li>
+              <li>✅ Nut Tightening</li>
+            </ul>
+          </div>
         </div>
-    </section>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/assets/product-2.jpg" class="card-img-top img-fluid" alt="Hydraulic Press SPM">
+          <div class="card-body">
+            <h4 class="card-title mb-3">QA Machine for Toyota Cylinder Block</h4>
+            <ul class="list-unstyled ps-3 mb-0">
+              <li>✅ Checking Parameter</li>
+              <li>✅ Through Hole</li>
+              <li>✅ Hole position </li>
+              <li>✅ Hole Go/No go </li>
+              <li>✅ Oil hole gallery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="/assets/hydraulic-press-spm.jpg" class="card-img-top img-fluid" alt="Hydraulic Press SPM">
+          <div class="card-body">
+            <h4 class="card-title mb-3">Hydraulic Press SPM</h4>
+            <ul class="list-unstyled ps-3 mb-0">
+              <li>✅ High Precision Operation with reliable hydraulic system</li>
+              <li>✅ In-house design Facility 3D Solid Works with Work Station</li>
+               <li>✅ Durable Frame & Components ensuring long-term performance</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 

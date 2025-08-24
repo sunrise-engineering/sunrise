@@ -8,13 +8,16 @@
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav mx-auto position-relative">
                 <div class="slider-bar"></div>
-                <li class="nav-item"><a class="nav-link active" href="/">Home</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#features">About us</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#solutions">Products</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#pricing">Services</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#about">Certificate</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="/our-facilities">Our Facilities</a> </li>
-                </ul>
+            
+  <li class="nav-item">    <a class="nav-link active" href="/">Home</a>  </li>
+  <li class="nav-item">    <a class="nav-link" href="/about-us">About Us</a>  </li>
+  <li class="nav-item">    <a class="nav-link" href="/products">Products</a>  </li>
+  <li class="nav-item">    <a class="nav-link" href="/services">Services</a>  </li>
+  <li class="nav-item">    <a class="nav-link" href="/certificates">Certificate</a>  </li>
+  <li class="nav-item">    <a class="nav-link" href="/our-facilities">Our Facilities</a>  </li>
+</ul>
+
+        
             <div class="header-actions d-flex">
                 <a href="Profile Sunrise.pdf" target="_self" class="btn btn-outline-primary">Download brochure</a>
                 <a href="/contact-us" target="_self" class="btn btn-signup">Contact US</a>
@@ -24,58 +27,3 @@
     </div>
 </nav>
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const navLinks = document.querySelectorAll('.nav-link');
-        const sliderBar = document.querySelector('.slider-bar');
-        
-        // Initialize slider bar position
-        function initSliderBar() {
-            const activeLink = document.querySelector('.nav-link.active');
-            if (activeLink) {
-                const width = activeLink.offsetWidth;
-                const left = activeLink.offsetLeft;
-                
-                sliderBar.style.width = `${width}px`;
-                sliderBar.style.left = `${left}px`;
-            }
-        }
-        
-        // Move slider bar on click
-        navLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                // Update active class
-                navLinks.forEach(item => item.classList.remove('active'));
-                this.classList.add('active');
-                
-                // Move slider
-                const width = this.offsetWidth;
-                const left = this.offsetLeft;
-                
-                sliderBar.style.width = `${width}px`;
-                sliderBar.style.left = `${left}px`;
-                
-                // For demo purposes, we're not actually navigating
-                return false;
-            });
-        });
-        
-        // Initialize on load and resize
-        window.addEventListener('load', initSliderBar);
-        window.addEventListener('resize', initSliderBar);
-        
-        // Add scroll effect to navbar
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.style.padding = "0.5rem 1rem";
-                navbar.style.boxShadow = "0 2px 20px rgba(0, 0, 0, 0.1)";
-            } else {
-                navbar.style.padding = "0.8rem 2rem";
-                navbar.style.boxShadow = "0 2px 20px rgba(0, 0, 0, 0.05)";
-            }
-        });
-    });
-</script>
