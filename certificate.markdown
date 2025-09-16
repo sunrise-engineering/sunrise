@@ -19,50 +19,32 @@ permalink: /certificates
     }
   </style>
 <!-- Header / Hero Section -->
-  <section class="hero">
-    <div class="container">
+  <!-- <section class="hero">
+    <div class="container p-4">
       <h1 class="display-4">Sunrise Engineering</h1>
       <p class="lead">Proudly ISO 9001:2015 Certified</p>
     </div>
-  </section>
-
+  </section> -->
+<br><br> <br><br>
   <!-- Main Content -->
-  <div class="container my-5">
+  <div class="container p-4">
     <div class="row justify-content-center">
       <div class="col-md-10">
-        <h2 class="mb-4">Commitment to Quality and Excellence</h2>
-        <p>
-          At <strong>Sunrise Engineering</strong>, we take pride in being ISO 9001:2015 certified — an internationally recognized standard for Quality Management Systems (QMS). This certification demonstrates our unwavering commitment to delivering quality-driven solutions, continuous improvement, and customer satisfaction across all aspects of our operations.
-        </p>
-        
-        <h4 class="mt-4">What ISO 9001:2015 Means</h4>
-        <p>
-          The ISO 9001:2015 standard is a powerful business improvement tool that provides a framework for consistent performance, risk management, and operational excellence. By aligning with these global best practices, Sunrise Engineering ensures:
-        </p>
-        <ul>
-          <li>Enhanced process efficiency</li>
-          <li>Higher customer satisfaction</li>
-          <li>Improved decision-making</li>
-          <li>Strong leadership and team involvement</li>
-        </ul>
 
-        <h4 class="mt-4">Our Quality Policy</h4>
-        <p>
-          Our quality policy is built around customer focus, teamwork, transparency, and innovation. We strive to exceed client expectations through reliable engineering solutions, continual training, and consistent quality assurance practices.
-        </p>
+<img src="/assets/sunrise-QMS-ISO 9001.jpg" alt="Logo" style="width: 100%; height: auto; box-shadow: 0 10px 20px rgba(0,0,0,0.3);">
 
-        <h4 class="mt-4">Why It Matters</h4>
-        <p>
-          Being ISO certified is not just a badge — it's a commitment to doing things the right way. Our clients can rest assured that every project delivered by Sunrise Engineering meets strict quality standards and regulatory requirements.
-        </p>
-
-        <blockquote class="blockquote mt-4">
-          <p class="mb-0">"Quality is never an accident; it is always the result of intelligent effort." – John Ruskin</p>
-        </blockquote>
-
-        <p class="mt-4">
-          Thank you for trusting Sunrise Engineering. We look forward to continuing to serve with integrity, innovation, and excellence.
-        </p>
+<br><br>
+<h2 class="mb-4">Commitment to Quality and Excellence</h2>
+ <p>At <strong>Sunrise Engineering</strong>, we take pride in being ISO 9001:2015 certified — an internationally recognized standard for Quality Management Systems (QMS). This certification demonstrates our unwavering commitment to delivering quality-driven solutions, continuous improvement, and customer satisfaction across all aspects of our operations </p>
+<h4 class="mt-4">What ISO 9001:2015 Means</h4>
+ <p>The ISO 9001:2015 standard is a powerful business improvement tool that provides a framework for consistent performance, risk management, and operational excellence. By aligning with these global best practices, Sunrise Engineering ensures:</p>
+   <ul><li>Enhanced process efficiency</li><li>Higher customer satisfaction</li><li>Improved decision-making</li><li>Strong leadership and team involvement</li></ul>
+<h4 class="mt-4">Our Quality Policy</h4>
+  <p> Our quality policy is built around customer focus, teamwork, transparency, and innovation. We strive to exceed client expectations through reliable engineering solutions, continual training, and consistent quality assurance practices. </p>
+ <h4 class="mt-4">Why It Matters</h4>
+   <p> Being ISO certified is not just a badge — it's a commitment to doing things the right way. Our clients can rest assured that every project delivered by Sunrise Engineering meets strict quality standards and regulatory requirements.</p>
+ <blockquote class="blockquote mt-4"><p class="mb-0">"Quality is never an accident; it is always the result of intelligent effort." – John Ruskin</p> </blockquote>
+ <p class="mt-4"> Thank you for trusting Sunrise Engineering. We look forward to continuing to serve with integrity, innovation, and excellence. </p>
       </div>
     </div>
   </div>

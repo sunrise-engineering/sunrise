@@ -79,64 +79,7 @@ description: SPM, automation, conveyors, dies, jigs, and rubber/plastic parts wi
     </section>
 
  <!-- Values Section -->
- <section class="py-5" id="values">
-        <div class="container py-5">
-            <h2 class="section-title">Our Guiding Principles</h2>
-            <div class="row">
-                <!-- Vision -->
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 values-card">
-                        <div class="card-body">
-                            <div class="text-center mb-4">
-                                <i class="fas fa-binoculars fa-3x text-primary"></i>
-                            </div>
-                            <h3 class="card-title text-center">Vision</h3>
-                            <p class="card-text">To establish our group as a Gold Standard in Product Innovation, superior quality, best value proposition, superb service and enhanced customer satisfaction.</p>
-                            <ul>
-                                <li>Become among top 10 Proprietary Part companies</li>
-                                <li>Most preferred supplier in India</li>
-                                <li>Create global footprint</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Mission -->
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 values-card">
-                        <div class="card-body">
-                            <div class="text-center mb-4">
-                                <i class="fas fa-bullseye fa-3x text-primary"></i>
-                            </div>
-                            <h3 class="card-title text-center">Mission</h3>
-                            <p class="card-text">To develop technology in terms of products, processes and systems at par with global best in next 5 years and continually innovate.</p>
-                            <ul>
-                                <li>Establish presence in all market segments in India in 3 years</li>
-                                <li>Global presence in 7 years</li>
-                                <li>Continuous innovation</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-   <!-- Values -->
-   <div class="col-md-4 mb-4">
-                    <div class="card h-100 values-card">
-                        <div class="card-body">
-                            <div class="text-center mb-4">
-                                <i class="fas fa-handshake fa-3x text-primary"></i>
-                            </div>
-                            <h3 class="card-title text-center">Values</h3>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Transparency to all stakeholders</li>
-                                <li class="list-group-item">Customer centric organization</li>
-                                <li class="list-group-item">Built-in quality, innovations and sustainability</li>
-                                <li class="list-group-item">Win trust of all stakeholders</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+ {% include our-vision.html %} 
 <!-- Stats Section -->
 <section class="py-5 bg-primary text-white">
         <div class="container py-4">
@@ -146,11 +89,11 @@ description: SPM, automation, conveyors, dies, jigs, and rubber/plastic parts wi
                     <p>Years of Experience</p>
                 </div>
                 <div class="col-md-3 col-6 mb-4">
-                    <div class="stats-number">350+</div>
+                    <div class="stats-number">100+</div>
                     <p>Projects Completed</p>
                 </div>
                 <div class="col-md-3 col-6 mb-4">
-                    <div class="stats-number">50+</div>
+                    <div class="stats-number">15+</div>
                     <p>Clients Served</p>
                 </div>
                 <div class="col-md-3 col-6 mb-4">
@@ -161,7 +104,8 @@ description: SPM, automation, conveyors, dies, jigs, and rubber/plastic parts wi
         </div>
     </section>
 <!-- Journey Section -->
-<section class="py-5 bg-light" id="journey">
+<br>
+<section class="P-4 bg-light" id="journey">
         <div class="container py-5">
             <h2 class="section-title">Our Journey</h2>
             <div class="journey-timeline">
