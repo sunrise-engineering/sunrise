@@ -4,7 +4,7 @@ title: "Contact Sunrise Engineering | Kharkhara, Dharuhera"
 description: "Reach our works/office near Govt. Degree College, Kharkhara, Dharuhera. Enquire for SPM, automation, conveyors and precision parts."
 permalink: /contact-us
 ---
-<br>
+<br><br>
 <div class="container py-5">
   <div class="row shadow-lg rounded-4 overflow-hidden bg-white">
     <!-- LEFT SIDE: MAP -->
@@ -28,11 +28,11 @@ permalink: /contact-us
       <div class="row mb-4">
         <div class="col-md-6 mb-3">
           <h6 class="fw-bold"><i class="bi bi-envelope-fill text-primary me-2"></i>Email Us</h6>
-          <p class="mb-0 text-muted">info@gatikotto.com</p>
+          <p class="mb-0 text-muted">info@sunriseengineering.com</p>
         </div>
         <div class="col-md-6 mb-3">
           <h6 class="fw-bold"><i class="bi bi-telephone-fill text-success me-2"></i>Call Us</h6>
-          <p class="mb-0 text-muted">+91-8448864776</p>
+          <p class="mb-0 text-muted">+91-9599404776</p>
         </div>
       </div> 
       <!-- Full Height Form -->

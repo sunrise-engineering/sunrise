@@ -29,7 +29,7 @@ footer a{ color: inherit; }
 
 <div class="row g-4 mt-4">
 <div class="col-md-3"><div class="info-box text-center"><div class="h4">2018</div><div class="small">Year of Establishment</div></div></div>
-<div class="col-md-3"><div class="info-box text-center"><div class="h4">50+</div><div class="small">Employees</div></div></div>
+<div class="col-md-3"><div class="info-box text-center"><div class="h4">20+</div><div class="small">Employees</div></div></div>
 <div class="col-md-3"><div class="info-box text-center"><div class="h4">₹ 3.5 Cr+</div><div class="small">Annual Turnover</div></div></div>
 <div class="col-md-3"><div class="info-box text-center"><div class="h4">6 Weeks</div><div class="small">Avg. Delivery Time</div></div></div>
 </div>
@@ -57,12 +57,11 @@ footer a{ color: inherit; }
 <div class="col-md-4"><div class="p-3 border rounded-4 h-100">Special Purpose Machines</div></div>
 <div class="col-md-4"><div class="p-3 border rounded-4 h-100">Automation Systems</div></div>
 <div class="col-md-4"><div class="p-3 border rounded-4 h-100">Testing Machines</div></div>
-<div class="col-md-4"><div class="p-3 border rounded-4 h-100">Welding Machines</div></div>
+<div class="col-md-4"><div class="p-3 border rounded-4 h-100">Auto gauging Machine</div></div>
 <div class="col-md-4"><div class="p-3 border rounded-4 h-100">Industrial Washing Machines</div></div>
 <div class="col-md-4"><div class="p-3 border rounded-4 h-100">Conveyor Systems</div></div>
-<div class="col-md-4"><div class="p-3 border rounded-4 h-100">Batch Ovens</div></div>
-<div class="col-md-4"><div class="p-3 border rounded-4 h-100">Conveyor Ovens</div></div>
-<div class="col-md-4"><div class="p-3 border rounded-4 h-100">Vertical Ovens</div></div>
+<div class="col-md-4"><div class="p-3 border rounded-4 h-100"> Rubber Seals</div></div>
+
 </div>
 </div>
 </section>
